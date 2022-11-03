@@ -12,7 +12,7 @@ def findValue(numbers, number_to_find, low, high):
     else:
         return -1
 
-numbers = [7, 9, 14, 22, 34]
+numbers = [7,  9, 14, 22, 34]
 number_to_find = 22
 
 final = findValue(numbers, number_to_find, 0, len(numbers) - 1)
